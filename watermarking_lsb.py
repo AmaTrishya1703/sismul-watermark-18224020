@@ -299,7 +299,7 @@ def main():
     print("[✓] Tersimpan: watermarked_lossless.png")
 
     # ---- Step 3 & 4: Loop QF dari besar ke kecil ----
-    quality_factors = [95, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+    quality_factors = [99, 98, 97, 96, 95, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     print(f"\n[STEP 3 & 4] Kompresi JPEG & Evaluasi NCC")
     print(f"{'QF':>5} | {'Ukuran (KB)':>11} | {'NCC':>8} | Status")
     print("-" * 40)
